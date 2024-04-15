@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.app{
+    width: 30rem;
+    background-color: rgb(41, 41, 41);
+    height: fit-content;
+    min-height: 100vh;
+}
+.nave{
+    background-color: #A6A9AE;
+    border-radius: 20px 20px 0px 0px;
+}
+.navebar1{
+    background-color: #A6A9AE;
+    height: 2.22667rem;
+    border-radius: 20px 20px 0px 0px;
+    /* margin-top: 20px; */
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.navebar2{
+    background-color: #A6A9AE;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: bahnschrift;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.login-container-logo{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.login-phone{
+    color: #d9ac4f;
+    text-align: center;
+    font-size: 130%;
+    font-family: bahnschrift;
+}
+.Emain-Account{
+    color: #888888;
+    text-align: center;
+    font-size: 130%;
+    font-family: bahnschrift;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+}
+.hr1{
+    border: 1px solid #d9ac4f;
+    width: 100%;
+    margin-left: 50px;
+}
+.hr2{
+    border: 1px solid #888888;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.phoneInput_label{
+    color: white;
+    font-family: bahnschrift;
+    font-size: 100%;
+    margin-left: 50px;
+}
+span{
+    /* color: red; */
+    position: absolute;
+    /* top: 10px ; */
+    font-size: 140%;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.select_contry{
+    background-color: #484848;
+    border-radius: 10px;
+    border: none;
+    height: 63px;
+    width: 133px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 130%;
+    color: #9d9897;
+    /* align-items: center; */
+}
+.enter_number{
+    background-color: #484848;
+    border: none;
+    width: 53%;
+    height: 60px;
+    margin-left: 10px;
+    text-align: center;
+    font-size:100% ;
+    /* position: absolute; */
+    border-radius: 10px;
+}
+.enter_password{
+    background-color: #484848;
+    border: none;
+    width: 85%;
+    height: 60px;
+    margin-left: 50px;
+    /* text-align: center; */
+    font-size:120% ;
+    /* position: absolute; */
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    background-color: #9395a1;
+    border: none;
+    color: aliceblue;
+    border-radius: 25px;
+    width: 80%;
+    height: 3rem;
+    font-size: 20px;
+    margin: 50px 0px 0px 30px;
+    font-family: bahnschrift;
+}
